@@ -15,9 +15,9 @@ logging.basicConfig(level=logging.INFO)
 #                      НАСТРОЙКИ
 # ---------------------------------------------------------
 
-TOKEN = "7671471089:AAEb1HopQCfMkIN6HKNaju4RvPtcwI2cIaU"  # <-- ваш токен
-MASTER_ADMIN_ID = 6664891663                            # <-- ваш TG user_id
-MASTER_ADMIN_PASS = "rЮ!a9*к№уD:b"                        # <-- пароль главного админа
+TOKEN = os.getenv("BOT_TOKEN")  # <-- ваш токен
+MASTER_ADMIN_ID = os.getenv("MA_ID")                           # <-- ваш TG user_id
+MASTER_ADMIN_PASS = os.getenv("MA_PASS")                      # <-- пароль главного админа
 
 PHOTOS_FOLDER = "photos"
 os.makedirs(PHOTOS_FOLDER, exist_ok=True)

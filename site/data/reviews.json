@@ -1,0 +1,7 @@
+[
+  {"id":"r1","authorName":"Иван","avatarUrl":"/avatars/1.png","rating":5,"text":"Отличная команда! Быстро и качественно.","createdAt":"2024-06-01T10:00:00Z"},
+  {"id":"r2","authorName":"Анна","avatarUrl":"/avatars/2.png","rating":5,"text":"Сайт получился очень стильный.","createdAt":"2024-06-12T12:00:00Z"},
+  {"id":"r3","authorName":"Олег","avatarUrl":"/avatars/3.png","rating":4,"text":"Бот закрывает все задачи.","createdAt":"2024-07-03T08:30:00Z"},
+  {"id":"r4","authorName":"Мария","avatarUrl":"/avatars/4.png","rating":5,"text":"CRM ускорила работу отдела продаж.","createdAt":"2024-08-20T09:20:00Z"},
+  {"id":"r5","authorName":"Дмитрий","avatarUrl":"/avatars/5.png","rating":4,"text":"Рассылка помогла вернуть клиентов.","createdAt":"2024-09-01T15:45:00Z"}
+]

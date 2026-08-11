@@ -1,0 +1,12 @@
+[
+  {"id":"1","slug":"tg-bot-starter","title":"Telegram-бот (Starter)","category":"TG_BOT","description":"Простой бот: команды, ответы, вебхуки.","priceFrom":10000,"priceTo":20000,"features":["Команды","Webhook","Логирование"],"images":["/images/tg-bot-1.png"]},
+  {"id":"2","slug":"tg-bot-pro","title":"Telegram-бот (Pro)","category":"TG_BOT","description":"Бот с интеграцией API и оплатами.","priceFrom":20000,"priceTo":60000,"features":["Оплаты","Интеграции","Админка"],"images":["/images/tg-bot-2.png"]},
+  {"id":"3","slug":"website-landing","title":"Сайт (Landing)","category":"WEBSITE","description":"Одностраничник с анимациями и SEO.","priceFrom":25000,"priceTo":50000,"features":["SEO","Анимации","Дизайн"],"images":["/images/site-landing.png"]},
+  {"id":"4","slug":"website-corp","title":"Сайт (Corporate)","category":"WEBSITE","description":"Многостраничный сайт с блогом.","priceFrom":50000,"priceTo":100000,"features":["Блог","CMS","Формы"],"images":["/images/site-corp.png"]},
+  {"id":"5","slug":"crm-basic","title":"CRM (Basic)","category":"CRM","description":"Базовая CRM для лидов и задач.","priceFrom":30000,"priceTo":60000,"features":["Лиды","Задачи","Отчёты"],"images":["/images/crm-basic.png"]},
+  {"id":"6","slug":"crm-advanced","title":"CRM (Advanced)","category":"CRM","description":"Расширенная CRM с ролями и интеграциями.","priceFrom":60000,"priceTo":120000,"features":["Роли","Интеграции","Дашборды"],"images":["/images/crm-advanced.png"]},
+  {"id":"7","slug":"mailer-tg-wa-basic","title":"TG+WhatsApp рассылка (Basic)","category":"TG_WA","description":"Базовые рассылки по спискам.","priceFrom":30000,"priceTo":45000,"features":["Списки","Шаблоны","Статистика"],"images":["/images/mailer-basic.png"]},
+  {"id":"8","slug":"mailer-tg-wa-pro","title":"TG+WhatsApp рассылка (Pro)","category":"TG_WA","description":"Автоматизации и A/B тесты.","priceFrom":45000,"priceTo":65000,"features":["Автоворонки","A/B тесты","Сегменты"],"images":["/images/mailer-pro.png"]},
+  {"id":"9","slug":"website-ecommerce","title":"Сайт (E-commerce)","category":"WEBSITE","description":"Магазин с оплатами и каталогом.","priceFrom":80000,"priceTo":100000,"features":["Каталог","Оплаты","ЛК"],"images":["/images/site-shop.png"]},
+  {"id":"10","slug":"tg-bot-crm","title":"TG-бот + CRM","category":"TG_BOT","description":"Комплекс: бот для заявок + CRM.","priceFrom":60000,"priceTo":110000,"features":["Синхронизация","Уведомления","Аналитика"],"images":["/images/tg-bot-crm.png"]}
+]

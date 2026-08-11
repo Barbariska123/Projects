@@ -4,8 +4,8 @@ from datetime import datetime
 from telebot import types
 
 # Токен
-API_TOKEN = ''
-bot = telebot.TeleBot(API_TOKEN)
+TOKEN = os.getenv("BOT_TOKEN")
+bot = telebot.TeleBot(TOKEN)
 
 # Подключение к базе данных
 conn = sqlite3.connect('base.db', check_same_thread=False)

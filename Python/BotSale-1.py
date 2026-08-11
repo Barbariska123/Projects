@@ -11,7 +11,7 @@ bot = telebot.TeleBot(TOKEN)
 conn = sqlite3.connect('base.db', check_same_thread=False)
 cursor = conn.cursor()
 
-ADMIN_ID = ""
+ADMIN_ID = os.getenv("ADMIN_ID")
 
 # Создание таблицы, если её нет
 def create_table():

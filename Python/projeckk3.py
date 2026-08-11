@@ -9,14 +9,15 @@ import os
 import threading
 
 # Инициализация бота
-bot = telebot.TeleBot("7941964715:AAFGR8V0W9qF0o8LF576iEyJSVdwazDs13M")
+TOKEN = os.getenv("BOT_TOKEN")
+bot = telebot.TeleBot("TOKEN")
 
 # Параметры для главного и младшего администратора
-MAIN_ADMIN_TELEGRAM_ID = '6664891663'
-MAIN_ADMIN_PASSWORD = 'rЮ!a9*к№уD:b'
+MAIN_ADMIN_TELEGRAM_ID = os.getenv("MA_ID")
+MAIN_ADMIN_PASSWORD = os.getenv("MA_PASS")
 
-JUNIOR_ADMIN_TELEGRAM_ID = '8068244167'
-JUNIOR_ADMIN_PASSWORD = '!pW&ix^;1^|Q'
+JUNIOR_ADMIN_TELEGRAM_ID = os.getenv("JA_ID")
+JUNIOR_ADMIN_PASSWORD = os.getenv("JA_PASS")
 
 def get_db_connection():
     try:

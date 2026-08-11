@@ -4,9 +4,9 @@ import threading
 import time
 import datetime as dt
 
-BOT_TOKEN = '8076421586:AAHOfzXV87qtFoyMn_jLQaw4Nhf7DPDc4Ec'
-DEFAULT_CHANNEL_ID = '@ponosfm103'
-ADMIN_ID =  # замените на ваш Telegram ID
+TOKEN = os.getenv("BOT_TOKEN")
+DEFAULT_CHANNEL_ID = ''
+ADMIN_ID = os.getenv('ADMIN_ID') # замените на ваш Telegram ID
 
 bot = telebot.TeleBot(BOT_TOKEN)
 channel_id = DEFAULT_CHANNEL_ID
